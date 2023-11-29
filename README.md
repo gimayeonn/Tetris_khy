@@ -1,24 +1,14 @@
-# 2020-2-OSSP-CP--YamiYami_Z_Z-5
-오픈소스프로젝트 냠냠쩝쩝 팀입니다!
-1. Base Source
-- 주소 : https://github.com/hbseo/OSD_game
-- License : GPLv3
-- python 3.6
-- pygame = 1.9.3
+# Tetris_khy
+오픈소스프로그래밍 고효율 팀입니다.
 
-![image](https://user-images.githubusercontent.com/70746658/101518410-3b3b1380-39c5-11eb-83df-fefcfb0adf25.png)
+1. 목적
+ 기존의 테트리스 게임에 추가적인 기능을 구현하여, 더 발전된 테트리스 게임을 만들기 위함이다.
 
-2. 개발 환경 
-	언어 : Python 3.6.12
-  
-	편집기 : PyCharm 
-  
-  OS : Linux(16.04.1)
-  
-	추가 모듈 : pygame == 2.0.0 , pygame_menu == 3.3.0, pymysql == 0.10.1 
-  
+     <추가 기능>
+     - AWS의 RDS와 MySQL을 이용한 회원가입/로그인 기능 구현
+     - 모드별 랭킹 구현 및 랭킹 실시간 업데이트 기능 구현
 
-3. 게임 실행 방식
+2. 게임 실행 방식
    1. 현재 repository의 소스 코드를 모두 다운 또는 clone을 통해 local에 저장한다.
    2. 추가 모듈에 표기한 모듈들을 다운 받고 run.py에서 실행한다.
 
@@ -81,17 +71,6 @@
   
   	- 게임 종료 후, ID를 입력하면 aws에 만들어둔 데이터 베이스에 자동 저장
   <img src="https://user-images.githubusercontent.com/70746658/101523466-fbc3f580-39cb-11eb-82d3-21fcdcd5d0f7.png"  width="300" height="150">  
- 
-
-5. Reference
-
-AI 모드 : https://github.com/YangtaoGe518/Tetris-AI
-
-사운드 : https://www.bensound.com/royalty-free-music
-
-메뉴 :  https://pygame-menu.readthedocs.io/en/latest/_source/add_widgets.html
-	https://github.com/ppizarror/pygame-menu
-
 
 
 
